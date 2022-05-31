@@ -11,7 +11,11 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.widget.Switch
-import androidx.preference.*
+import androidx.preference.ListPreference
+import androidx.preference.Preference
+import androidx.preference.PreferenceCategory
+import androidx.preference.PreferenceFragment
+import androidx.preference.SwitchPreference
 
 import com.android.settingslib.widget.MainSwitchPreference
 import com.android.settingslib.widget.OnMainSwitchChangeListener
